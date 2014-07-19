@@ -1,0 +1,21 @@
+{
+    "name": "resolveRelink",
+    "version": "1.0.0",
+    "main": "javascripts/resolveRelink.js",
+    "ignore": [
+        "source",
+        "spec",
+        ".bowerrc",
+        ".gitignore",
+        ".gitattributes",
+        ".jshintignore",
+        ".jshintrc",
+        "bower.json",
+        "gruntfile.js",
+        "package.json",
+        "README.md"
+    ],
+    "dependencies": {
+        "lodash": ">=2.2.0"
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<package> 
+  <metadata>
+    <title>resolveRelink</title> 
+    <id>resolveRelink</id> 
+    <version>1.0.0</version>
+    <authors>Sam Armstrong</authors>
+    <description>Relinks referenc loops and resolves Json.Net reference loops clientside using lodash</description> 
+    <language>en-US</language>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>http://drsammyd.github.io/resolveRelink</projectUrl>
+    <tags>knockout lodash</tags>
+    <dependencies>
+      <dependency id="lodash" version="2.2.0" />
+    </dependencies>
+  </metadata> 
+  <files>
+    <file src="javascripts\*.*" target="Content\Scripts\" />
+  </files>
+</package>
