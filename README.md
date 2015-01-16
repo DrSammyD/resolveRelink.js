@@ -6,7 +6,7 @@ Take reference loop handeled in the way Json.Net handles and recreates the objec
 Example
 ===
 Here's an object crated from json using Json.Net
-'''
+```
 var arr = _.relink(JSON.parse("[{"$id":1,"Name":"SammyD"},{"$ref":1}]"));
 arr[0].Name= "Sam";
 arr[1].Name;
